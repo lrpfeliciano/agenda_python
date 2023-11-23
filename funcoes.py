@@ -19,4 +19,10 @@ def pesquisar(vetor, nomeBusca):
     else:
         return -1
     
-    
+def listar(vetor):
+    for elemento in vetor:
+        print(f"""{elemento['nome']}\t
+                  {elemento['email']}
+                  \t{elemento['telefone']}""")
+
+        
