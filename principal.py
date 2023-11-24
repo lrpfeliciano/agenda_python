@@ -13,6 +13,8 @@ while True:
     menu()
     opcao = int( input('Informe a opção: '))
 
+    print(type(opcao))
+    print(type(agenda))
     if opcao == 1: 
         incluir(agenda)
         
